@@ -24,6 +24,17 @@
     overflow: hidden;
     word-wrap: break-word;
 }
+.PostCard h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.PostCard p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
 
 .Pagination button{
     margin: 5px;
@@ -48,9 +59,7 @@
     height:auto ;
 }
 
-.PostButton h2{
-    width: 85%;
-}
+
 .PostButton button{
     width: 35%;
     height: 40px;
