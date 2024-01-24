@@ -1,0 +1,63 @@
+.App h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 25%;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PostCard{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px;
+    width: 450px;
+    height: 320px;
+    color: black;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.Pagination button{
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #1d0202;
+    background-color:rgb(247, 150, 150);
+    color: rgb(82, 78, 78);
+    cursor: pointer;
+    width: 40px;
+    height: 45px; 
+    border-radius: 50%;
+} 
+
+.Pagination button.active{
+    background-color: white;
+    color: black;
+}
+
+.PostButton{
+    display: flex;
+    width: 100%;
+    height:auto ;
+}
+
+.PostButton h2{
+    width: 85%;
+}
+.PostButton button{
+    width: 35%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    width: auto;
+    color: red;
+    font-weight: 700;
+    background-color: white;
+}
